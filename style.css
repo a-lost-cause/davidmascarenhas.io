@@ -5,49 +5,81 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    padding: 20px;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background-color: #333;
+    color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
     font-size: 3em;
 }
 
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
 section {
-    padding: 20px 0;
-    text-align: center;
+    margin: 40px 0;
 }
 
-#about {
-    background: #f4f4f4;
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-#projects ul {
+ul {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
 }
 
-#projects ul li {
-    margin: 10px 0;
+ul li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#resume .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#resume .btn:hover {
+    background-color: #0056b3;
 }
 
 footer {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #333;
+    color: white;
     text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
 }
