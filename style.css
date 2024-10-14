@@ -52,7 +52,7 @@ p {
     height: auto;
     object-fit: cover;
     border-radius: 10%;
-    width: 200px; /* Maximum width for larger screens */
+    width: 20px; /* Maximum width for larger screens */
 }
 
 /* Introduction Section */
