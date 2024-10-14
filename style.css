@@ -6,9 +6,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -17,116 +16,71 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
-}
-
-/* Header */
-header {
-    background-color: #ff847c;
-    color: white;
-    padding: 40px 0;
     text-align: center;
 }
 
-.header-content {
+.header {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
 }
 
-header h1 {
-    font-size: 3em;
-    margin-top: 20px;
+.info {
+    text-align: left;
 }
 
-header p {
-    font-size: 1.3em;
-    margin-top: 10px;
-}
-
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid white;
-}
-
-/* About Section */
-#about {
-    background-color: #f7e3d5;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#about h2 {
-    font-size: 2.5em;
+h1 {
+    font-size: 2em;
     color: #333;
 }
 
-#about p {
-    margin-top: 20px;
+hr {
+    width: 80%;
+    margin: 10px 0;
+}
+
+p {
     font-size: 1.2em;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    color: #555;
 }
 
-/* Resume Download Section */
-#resume {
-    background-color: #99b898;
-    padding: 50px 0;
-    text-align: center;
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
 }
 
-#resume h2 {
-    font-size: 2.5em;
-    color: white;
+/* Introduction Section */
+.intro {
+    margin-top: 30px;
 }
 
-#resume .btn {
+.intro p {
+    font-size: 1.1em;
+    color: #444;
+}
+
+/* Contact Buttons */
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.contact-buttons a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff847c;
+    margin: 0 10px;
+    background-color: #2980b9;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
-#resume .btn:hover {
-    background-color: #e6685a;
-}
-
-/* Contact Section */
-#contact {
-    background-color: #feceab;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#contact h2 {
-    font-size: 2.5em;
-    color: #333;
-}
-
-#contact p {
-    font-size: 1.2em;
-    margin-top: 20px;
-}
-
-#contact a {
-    color: #ff847c;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background-color: #2a363b;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+.contact-buttons a:hover {
+    background-color: #1c5980;
 }
