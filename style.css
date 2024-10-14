@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -49,7 +49,6 @@ a.btn:hover {
     background-color: #1c5980; /* Darker shade for hover */
 }
 
-
 p {
     font-size: 1.2em;
     color: #555;
@@ -57,11 +56,11 @@ p {
 
 /* Resizable Profile Image */
 .profile-image img {
-    max-width: 30%;
+    max-width: 100%; /* Allow the image to scale responsively */
+    width: 600px; /* Increase the size to double */
     height: auto;
     object-fit: cover;
-    border-radius: 10%;
-    width: 300px; /* Maximum width for larger screens */
+    border-radius: 10%; /* Keeps the rounded corners */
 }
 
 /* Introduction Section */
