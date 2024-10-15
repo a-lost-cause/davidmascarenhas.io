@@ -90,7 +90,7 @@ p {
     color: #555;
 }
 
-/* Responsive Media Query */
+/* Responsive Media Query 
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -98,10 +98,11 @@ p {
     }
 
     .profile-image img {
-    max-width: 80%; /* Increased image size */
+    max-width: 80%; /* Increased image size 
     height: auto;
     object-fit: cover;
     border-radius: 10%;
-    width: 100px; /* Increase to make photo more prominent */
+    width: 100px; /* Increase to make photo more prominent 
 }
 }
+*/
