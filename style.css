@@ -39,7 +39,7 @@ body {
 
 /* Profile Image - Resized */
 .profile-image img {
-    max-width: 40%; /* Increased image size */
+    max-width: 100%; /* Increased image size */
     height: auto;
     object-fit: cover;
     border-radius: 10%;
