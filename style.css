@@ -39,7 +39,7 @@ body {
 
 /* Profile Image - Resized */
 .profile-image img {
-    max-width: 100%; /* Increased image size */
+    max-width: 80%; /* Increased image size */
     height: auto;
     object-fit: cover;
     border-radius: 10%;
@@ -98,6 +98,10 @@ p {
     }
 
     .profile-image img {
-        width: 80%; /* Image adjusts on smaller screens */
-    }
+    max-width: 80%; /* Increased image size */
+    height: auto;
+    object-fit: cover;
+    border-radius: 10%;
+    width: 300px; /* Increase to make photo more prominent */
+}
 }
