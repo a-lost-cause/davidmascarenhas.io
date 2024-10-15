@@ -43,7 +43,7 @@ body {
     height: auto;
     object-fit: cover;
     border-radius: 10%;
-    width: 300px; /* Increase to make photo more prominent */
+    width: 100px; /* Increase to make photo more prominent */
 }
 
 /* Introduction Section */
@@ -102,6 +102,6 @@ p {
     height: auto;
     object-fit: cover;
     border-radius: 10%;
-    width: 300px; /* Increase to make photo more prominent */
+    width: 100px; /* Increase to make photo more prominent */
 }
 }
