@@ -1,108 +1,85 @@
-/* General Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body - Monotonic Professional Look */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Light gray background */
-    color: #333;
-    margin: 0;
-    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
-/* Container and Layout */
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 80%;
     margin: auto;
+    overflow: hidden;
     padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
     text-align: center;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
+header h1 {
+    font-size: 3em;
 }
 
-.info {
-    text-align: left;
-    flex: 1;
-    min-width: 200px;
-}
-
-/* Profile Image - Resized */
-.profile-image img {
-    max-width: 80%; /* Increased image size */
-    height: auto;
-    object-fit: cover;
-    border-radius: 10%;
-    width: 100px; /* Increase to make photo more prominent */
-}
-
-/* Introduction Section */
-.intro {
-    margin-top: 30px;
-}
-
-.intro p {
+header p {
     font-size: 1.2em;
-    color: #444;
-    text-align: left;
+    margin-top: 10px;
 }
 
-/* Buttons - Primary Monotonic Color */
-.contact-buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
+section {
+    margin: 40px 0;
 }
 
-.contact-buttons a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #1c3a5f; /* Primary blue-gray color for buttons */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
     font-size: 1.1em;
 }
 
-.contact-buttons a:hover {
-    background-color: #29496f; /* Slightly darker on hover */
+a {
+    color: #007BFF;
+    text-decoration: none;
 }
 
-/* Colors and Typography */
-h1, hr {
-    color: #1c3a5f; /* Blue-gray for headings */
+a:hover {
+    text-decoration: underline;
 }
 
-p {
-    font-size: 1.2em;
-    color: #555;
+#resume .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-/* Responsive Media Query 
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-    }
+#resume .btn:hover {
+    background-color: #0056b3;
+}
 
-    .profile-image img {
-    max-width: 80%; /* Increased image size 
-    height: auto;
-    object-fit: cover;
-    border-radius: 10%;
-    width: 100px; /* Increase to make photo more prominent 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
 }
-}
-*/
