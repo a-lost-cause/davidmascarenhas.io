@@ -53,7 +53,10 @@ p {
     color: #ffffff;
 }
 
-.profile-image img {
+.profile-image {
+    position: relative;
+    top: 20px; /* Move the image down by 20px from its original position */
+    left: 30px; /* Move the image right by 30px from its original position */
     max-width: 40%;
     width: 350px; /* Increased image size */
     height: auto;
@@ -106,7 +109,7 @@ p {
         text-align: center;
     }
 
-    .profile-image img {
+    .profile-image {
         width: 80%;
     }
 
