@@ -88,7 +88,7 @@ p {
     margin-bottom: 30px;
     text-align: left;
     background-color: #ffffff; /* White background for the intro section */
-    padding: 40px; /* Increased padding */
+    padding: 30px; /* Increased padding */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
