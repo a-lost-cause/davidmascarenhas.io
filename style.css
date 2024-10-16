@@ -71,13 +71,11 @@ p {
 }
 
 .profile-image {
-    position: relative;
-    top: 20px; /* Move the image down by 20px from its original position */
-    left: 30px; /* Move the image right by 30px from its original position */
-    max-width: 40%;
-    width: 350px; /* Increased image size */
+    max-width: 60%; /* Increased image size */
     height: auto;
-    border-radius: 1%;
+    object-fit: cover;
+    border-radius: 10%;
+    width: 300px; /* Fixed width for better control */
 }
 
 /* Introduction Section */
