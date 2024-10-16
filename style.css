@@ -71,10 +71,10 @@ p {
 }
 
 .profile-image {
-    max-width: 60%; /* Increased image size */
+    max-width: 100%; /* Increased image size */
     height: auto;
     object-fit: cover;
-    border-radius: 10%;
+    border-radius: 1%;
     width: 300px; /* Fixed width for better control */
 }
 
