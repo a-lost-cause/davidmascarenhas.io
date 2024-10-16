@@ -41,7 +41,7 @@ body {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(1, 1fr);
-grid-column-gap: 50px;
+grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
 
@@ -75,12 +75,13 @@ p {
     height: auto;
     object-fit: cover;
     border-radius: 1%;
-    width: 300px; /* Fixed width for better control */
+    width: 500px; /* Fixed width for better control */
 }
 
 /* Introduction Section */
 .intro {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: left;
     background-color: #ffffff; /* White background for the intro section */
     padding: 40px; /* Increased padding */
@@ -95,7 +96,7 @@ p {
 
 /* Introduction Section */
 .works {
-    margin-top: 50px;
+    margin-top: 0px;
     text-align: left;
     background-color: #b3bbc2; /* White background for the intro section */
     padding: 40px; /* Increased padding */
